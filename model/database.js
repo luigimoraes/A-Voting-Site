@@ -5,8 +5,8 @@ const mysql = require("mysql");
 let db = mysql.createPool({
 	host: 'localhost',
 	port: 3306,
-	user: 'u0_a715',
-	password: '',
+	user: 'user',
+	password: 'password',
 	database: 'Eleitoral'
 });
 
