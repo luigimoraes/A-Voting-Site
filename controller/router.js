@@ -48,5 +48,5 @@ app.post('/auth', auth.authVoter);
 app.patch('/vote', vote.vote);
 
 app.listen(3000, () => {
-	console.log('Listening on port 3000');
+	console.log('Server running at localhost:3000')
 });
