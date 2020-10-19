@@ -3,7 +3,7 @@ const localStrategy = require('passport-local').Strategy;
 const db = require('../model/authModel.js');
 
 exports.authCand = (req, res) => {
-	passport.use(new localStrategy({
+	/*passport.use(new localStrategy({
 			usernameField: req.body.name;
 			passwordField: req.body.pass;
 		},
@@ -30,7 +30,8 @@ exports.authCand = (req, res) => {
 		}else{
 			res.send('YOU SHALL NO PASS');
 		}
-	});
+	});*/
+	res.send('authentication');
 }
 
 exports.authVoter = (req, res) => {
@@ -40,3 +41,4 @@ exports.authVoter = (req, res) => {
 		res.send('you are in')
 	});
 }
+

@@ -6,10 +6,8 @@ function selectAllPartidos(func){
                 if(err) throw err;
 
                 db.query('SELECT numLegenda, siglaPart FROM Partido', (err, results, fields) => {
-                        fs.writeFile('./model/partidos.json', JSON.stringify(results), 'utf-8', (err, re) => {
-                        	db.end();
-				func();
-			});
+			func(JSON.stringify(results));
+			db.end();
                 });
         });
 }

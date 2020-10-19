@@ -44,17 +44,11 @@ function selectCandidate(id, func){
 	});
 }
 
-function selectAllCandidates(callback){
+function selectAllCandidates(func){
 	db.getConnection((err, con) => {
 		if(err) throw err;
 		db.query('SELECT candidatoID, nomeCand, totalVotos, partidoID FROM Candidato', (err, results) => {
-			fs.writeFile('./model/allCandidatos.json', JSON.stringify(results), () => {
-				if(typeof(callback) == "function"){
-					 callback();
-				}else{
-					callback;
-				}
-			});
+			func(JSON.stringify(results));
 			con.release();
 		});
 	});

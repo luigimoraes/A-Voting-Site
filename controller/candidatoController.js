@@ -14,11 +14,8 @@ exports.insertCand = (req, res) => {
 };
 
 exports.selectAllCand = (req, res) => {
-	db.selectAllCandidates(() => {
-		let allCandsJson = fs.readFileSync('./model/allCandidatos.json', 'utf-8');
-		let conv = JSON.parse(allCandsJson || "[]");
-
-		res.send(conv);
+	db.selectAllCandidates((jsonString) => {
+		res.send(jsonString);
 	});
 };
 
