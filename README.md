@@ -8,4 +8,4 @@ The site shows all existing candidates ranked by most voted.</br >
 ExpressJS is used for server, and MySQL for database.</br >
 PassportJS will be used for security. PugJS and Bootstrap will be used for FrontEnd.</br >
 [Termux](https://play.google.com/store/apps/details?id=com.termux) and [ApiClient](https://play.google.com/store/apps/details?id=com.ab.apiclient)
-was used to built this site(Sorry I don't have a PC :broken_heart:)
+was used to built this site.
