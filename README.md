@@ -1,7 +1,11 @@
-<h1>Um Site de Votação</h1>
-<h2>Apenas para aumentar meus conhecimentos sobre desenvolvimento web</h2>
+# A Vote Site
+### This site was built to learn about Full-Stack applications.
 
-<p>
-Estou usando MySQL, NodeJS e ExpressJS no back-end, e pretendo adicionar ReactJS e Bootstrap no front-end.</br>
-Até a versão mais recente, o projeto foi escrito no app Termux. Os pacotes do MySQL e do Node foram baixados neste app, assim como os módulos utilizados.</br>
-</p>
+In this site, the user can vote to a registered candidate.</br >
+Anyone can register yourself for candidate, if choose one of pre-registered political party.</br >
+The site shows all existing candidates ranked by most voted.</br >
+
+ExpressJS is used for server, and MySQL for database.</br >
+PassportJS will be used for security. PugJS and Bootstrap will be used for FrontEnd.</br >
+[Termux](https://play.google.com/store/apps/details?id=com.termux) and [ApiClient](https://play.google.com/store/apps/details?id=com.ab.apiclient)
+was used to built this site(Sorry I don't have a PC :broken_heart:)
