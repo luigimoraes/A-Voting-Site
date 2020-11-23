@@ -2,9 +2,9 @@
 Back-end de um site de votação
 
 <p>
- <img src="https://img.shields.io/static/v1?label=Env&message=NodeJS&color=green&logo=Node.js&logoColor=white" />
- <img src="https://img.shields.io/static/v1?label=Server&message=ExpressJS&color=brightgreen" />
- <img src="https://img.shields.io/static/v1?label=DB&message=MySQL&color=blueviolet&logo=MySQL&logoColor=white" />
+ <img src="https://img.shields.io/static/v1?label=NodeJS&message=14.14.0&color=green&logo=Node.js&logoColor=white" />
+ <img src="https://img.shields.io/static/v1?label=ExpressJS&message=4.17.0&color=brightgreen" />
+ <img src="https://img.shields.io/static/v1?label=MySQL&message=15.1&color=blueviolet&logo=MySQL&logoColor=white" />
 </p>
 
 ## O que é?
